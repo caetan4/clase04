@@ -14,10 +14,13 @@ html {
 }
 
 body {
+    font-family: megavolt, sans-serif;
     font-family: "Turret Road", serif;
+   
+    color:#1E6FD9 ;
     font-weight: 500;
     min-height: 100%;
-    text-emphasis-color:#8FCDE6 ;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,7 +30,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Audiowide', sans-serif;
-    font-weight: 400;
+    font-weight: 550;
     margin: 0;
 }
 /* Laptop / Tablet */
@@ -67,18 +70,21 @@ nav ul li {
 }
 
 a {
-    color: #000;
-    font-weight: 600;
+    color: #a2cce7;
+    font-weight: 800;
     text-decoration: none;
     padding: 0.25em .5em;
     text-transform: uppercase;
     min-width: 42px;
+    transition: background-color 0.3s, color 0.4s;
+    
+  
 }
 
 a.active,
 a:hover {
-    background-color: #000;
-    color: #FFF;
+    background-color:  #94BDF2;
+    color: #1E6FD9;
 }
 
 footer {

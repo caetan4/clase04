@@ -3,7 +3,7 @@ a {
     padding: 0.25em .5em;
     text-transform: uppercase;
     min-width: 42px;
-    background-color: #000;
+    background-color:  #6fa7f1;
     color: #FFF;
 }
 
@@ -22,7 +22,7 @@ header#main-header {
 
 header#main-header,
 footer#main-footer {
-    background-color: #000;
+    background-color: #6fa7f1;
     color: #FFF;
 }
 
