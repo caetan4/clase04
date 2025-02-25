@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Turret+Road:wght@200;300;400;500;700;800&family=Yuji+Syuku&display=swap');
 html {
     /* 
     * box-sizing
@@ -13,8 +14,10 @@ html {
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Turret Road", serif;
+    font-weight: 500;
     min-height: 100%;
+    text-emphasis-color:#8FCDE6 ;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,7 +25,11 @@ body {
     font-size: 14px;
     line-height: 1.4em;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Audiowide', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
 /* Laptop / Tablet */
 @media (min-width: 768px) {
     body {
